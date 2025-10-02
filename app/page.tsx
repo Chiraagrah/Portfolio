@@ -609,7 +609,7 @@ const Portfolio = () => {
                     Schedule a 15-minute intro call to discuss opportunities or collaborations.
                   </p>
                   <a 
-                    href="https://calendly.com/chirag-sharma1701/15min" 
+                    href="https://calendly.com/chirag-sharma1701/30min"
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
