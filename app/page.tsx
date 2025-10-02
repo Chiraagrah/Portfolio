@@ -20,7 +20,7 @@ const Portfolio = () => {
       accuracy: null,
       links: [
         { label: "Case Study", href: "#" },
-        { label: "GitHub", href: "#" }
+        { label: "GitHub", href: "https://github.com/Chiraagrah/DuoLingo" }
       ]
     },
     {
@@ -33,7 +33,7 @@ const Portfolio = () => {
       accuracy: "98.24%",
       links: [
         { label: "Demo", href: "#" },
-        { label: "GitHub", href: "#" }
+        { label: "GitHub", href: "https://github.com/Chiraagrah/Car-Parking-Slot-Detection/tree/main" }
       ]
     },
     {
@@ -60,7 +60,7 @@ const Portfolio = () => {
       impact: "100+ NFTs for conservation",
       links: [
         { label: "Platform", href: "#" },
-        { label: "GitHub", href: "#" }
+        { label: "GitHub", href: "https://github.com/dsc-gtbit/solana-app" }
       ]
     },
     {
@@ -73,7 +73,7 @@ const Portfolio = () => {
       accuracy: null,
       links: [
         { label: "Demo", href: "#" },
-        { label: "GitHub", href: "#" }
+        { label: "GitHub", href: "https://github.com/Chiraagrah/Generational-Car-Racing" }
       ]
     },
     {
@@ -85,7 +85,7 @@ const Portfolio = () => {
       featured: false,
       accuracy: null,
       links: [
-        { label: "Notebook", href: "#" },
+        { label: "Notebook", href: "https://colab.research.google.com/drive/1RWrH4s-oDzk2X_mMjSOFur3BC_rQQ4xJ?usp=sharing" },
         { label: "GitHub", href: "#" }
       ]
     }
@@ -134,7 +134,7 @@ const Portfolio = () => {
     title: "Inter Connected Sensor Mesh To Monitor Soil",
     abstract: "IoT-based spectroscopy system for real-time soil analysis in precision agriculture",
     topics: ["IoT", "Spectroscopy", "Machine Learning", "Agriculture"],
-    link: "#"
+    link: "https://ieeexplore.ieee.org/document/10698620"
   };
 
   const filteredProjects = activeFilter === 'all' 
@@ -202,11 +202,11 @@ const Portfolio = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>contact@example.com</span>
+                  <span>chirag.sharma1701@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>+1 (XXX) XXX-XXXX</span>
+                  <span>+1 (646) 323-2874</span>
                 </div>
               </div>
 
