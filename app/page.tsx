@@ -230,13 +230,22 @@ const Portfolio = () => {
 
               {/* Quick Links */}
               <div className="flex gap-3">
-                <a href="https://github.com/Chiraagrah" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
+                <a href="https://github.com/Chiraagrah" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="https://www.linkedin.com/in/chirag-sharma-9b72b4268/" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
+                <a href="https://www.linkedin.com/in/chirag-sharma-9b72b4268/" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="https://www.hackerrank.com/profile/chirag_sharma171" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
+                <a href="https://www.hackerrank.com/profile/chirag_sharma171" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
                   <Code2 className="w-5 h-5" />
                 </a>
               </div>
@@ -361,6 +370,8 @@ const Portfolio = () => {
                         key={link.label}
                         href={link.href}
                         className={`text-sm flex items-center gap-1 transition-colors ${darkMode ? 'text-blue-400 hover:text-blue-300' : 'text-blue-600 hover:text-blue-700'}`}
+                        target="_blank" 
+                        rel="noopener noreferrer"
                       >
                         {link.label}
                         <ExternalLink className="w-3 h-3" />
@@ -392,6 +403,8 @@ const Portfolio = () => {
               <a 
                 href={research.link}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+                target="_blank" 
+                rel="noopener noreferrer"
               >
                 View Publication
                 <ExternalLink className="w-4 h-4" />
@@ -566,13 +579,23 @@ const Portfolio = () => {
                 <div className={`p-6 rounded-xl ${darkMode ? 'bg-zinc-800' : 'bg-white shadow-sm'}`}>
                   <h3 className="text-xl font-semibold mb-4">Social Links</h3>
                   <div className="flex gap-3">
-                    <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-700 hover:bg-zinc-600' : 'bg-zinc-100 hover:bg-zinc-200'}`}>
-                      <Github className="w-5 h-5" />
+                    <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-700 hover:bg-zinc-600' : 'bg-zinc-100 hover:bg-zinc-200'}`}
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-5 h-5" 
+                      />
                     </a>
-                    <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-700 hover:bg-zinc-600' : 'bg-zinc-100 hover:bg-zinc-200'}`}>
+                    <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-700 hover:bg-zinc-600' : 'bg-zinc-100 hover:bg-zinc-200'}`}
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
                       <Linkedin className="w-5 h-5" />
                     </a>
-                    <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-700 hover:bg-zinc-600' : 'bg-zinc-100 hover:bg-zinc-200'}`}>
+                    <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-700 hover:bg-zinc-600' : 'bg-zinc-100 hover:bg-zinc-200'}`}
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
                       <Code2 className="w-5 h-5" />
                     </a>
                   </div>
@@ -583,9 +606,15 @@ const Portfolio = () => {
                   <p className={`mb-4 ${darkMode ? 'text-zinc-400' : 'text-zinc-600'}`}>
                     Schedule a 15-minute intro call to discuss opportunities or collaborations.
                   </p>
+                  <a 
+                    href="https://calendly.com/chirag-sharma1701/15min" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
                   <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors">
                     Book on Calendly
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
