@@ -41,7 +41,7 @@ const Portfolio = () => {
       title: "Smart Mirror",
       summary: "Voice-controlled smart mirror with AI assistant integration and real-time information display",
       stack: ["Python", "Raspberry Pi", "OpenCV", "API Integration"],
-      kind: "Embedded/IoT",
+      kind: "Embedded AI and IoT",
       featured: true,
       accuracy: null,
       links: [
