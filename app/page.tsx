@@ -218,16 +218,24 @@ const Portfolio = () => {
                 >
                   View Projects
                 </button>
+                <a 
+                  href="https://docs.google.com/document/d/1K9CqF6_w3MhVZnpZhh_hdD7lMkvXXnktMdGh7zdBfpk/export?format=pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                 <button className={`px-6 py-3 rounded-xl font-medium transition-colors flex items-center gap-2 ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
                   <Download className="w-4 h-4" />
                   Download CV
                 </button>
+                </a>
+                <a href="mailto:chirag.sharma1701@gmail.com">
                 <button 
                   onClick={() => setActiveSection('contact')}
                   className={`px-6 py-3 rounded-xl font-medium transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}
                 >
                   Contact
                 </button>
+                </a>
               </div>
 
               {/* Quick Links */}
