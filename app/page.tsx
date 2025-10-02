@@ -455,7 +455,7 @@ const Portfolio = () => {
                 <div className={`p-6 rounded-xl ${darkMode ? 'bg-zinc-800' : 'bg-white shadow-sm'}`}>
                   <h3 className="text-xl font-semibold">Master of Science in Computer Science</h3>
                   <p className="text-blue-500">New Jersey Institute of Technology</p>
-                  <p className={darkMode ? 'text-zinc-400' : 'text-zinc-600'}>Expected 2026</p>
+                  <p className={darkMode ? 'text-zinc-400' : 'text-zinc-600'}>Expected 2027</p>
                 </div>
                 <div className={`p-6 rounded-xl ${darkMode ? 'bg-zinc-800' : 'bg-white shadow-sm'}`}>
                   <h3 className="text-xl font-semibold">Bachelor of Technology in Computer Science</h3>
