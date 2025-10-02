@@ -310,7 +310,7 @@ const Portfolio = () => {
             
             {/* Filters */}
             <div className="flex gap-3 mb-8 flex-wrap">
-              {['all', 'AI/ML', 'Full-Stack', 'Embedded/IoT'].map(filter => (
+              {['all', 'AI/ML', 'Full-Stack', 'Embedded AI and IoT'].map(filter => (
                 <button
                   key={filter}
                   onClick={() => setActiveFilter(filter)}
