@@ -460,7 +460,7 @@ const Portfolio = () => {
                 <div className={`p-6 rounded-xl ${darkMode ? 'bg-zinc-800' : 'bg-white shadow-sm'}`}>
                   <h3 className="text-xl font-semibold">Bachelor of Technology in Computer Science</h3>
                   <p className="text-blue-500">Guru Gobind Singh Indraprastha University</p>
-                  <p className={darkMode ? 'text-zinc-400' : 'text-zinc-600'}>2020 - 2024 • GPA: 9.375/10</p>
+                  <p className={darkMode ? 'text-zinc-400' : 'text-zinc-600'}>2021 - 2025 • GPA: 9.375/10</p>
                 </div>
               </div>
             </div>
