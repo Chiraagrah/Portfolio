@@ -42,7 +42,9 @@ const Portfolio = () => {
       kind: "Embedded AI and IoT",
       featured: true,
       accuracy: null,
-      links:[]
+      links:[
+        { label: "GitHub", href: "#" }
+      ]
     },
     {
       id: 4,
