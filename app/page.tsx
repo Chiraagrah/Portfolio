@@ -19,7 +19,6 @@ const Portfolio = () => {
       featured: true,
       accuracy: null,
       links: [
-        { label: "Case Study", href: "#" },
         { label: "GitHub", href: "https://github.com/Chiraagrah/DuoLingo" }
       ]
     },
@@ -32,7 +31,6 @@ const Portfolio = () => {
       featured: true,
       accuracy: "98.24%",
       links: [
-        { label: "Demo", href: "#" },
         { label: "GitHub", href: "https://github.com/Chiraagrah/Car-Parking-Slot-Detection/tree/main" }
       ]
     },
@@ -44,10 +42,7 @@ const Portfolio = () => {
       kind: "Embedded AI and IoT",
       featured: true,
       accuracy: null,
-      links: [
-        { label: "Video", href: "#" },
-        { label: "GitHub", href: "#" }
-      ]
+      links:[]
     },
     {
       id: 4,
@@ -59,7 +54,6 @@ const Portfolio = () => {
       accuracy: null,
       impact: "100+ NFTs for conservation",
       links: [
-        { label: "Platform", href: "#" },
         { label: "GitHub", href: "https://github.com/dsc-gtbit/solana-app" }
       ]
     },
@@ -72,7 +66,6 @@ const Portfolio = () => {
       featured: false,
       accuracy: null,
       links: [
-        { label: "Demo", href: "#" },
         { label: "GitHub", href: "https://github.com/Chiraagrah/Generational-Car-Racing" }
       ]
     },
@@ -86,7 +79,6 @@ const Portfolio = () => {
       accuracy: null,
       links: [
         { label: "Notebook", href: "https://colab.research.google.com/drive/1RWrH4s-oDzk2X_mMjSOFur3BC_rQQ4xJ?usp=sharing" },
-        { label: "GitHub", href: "#" }
       ]
     }
   ];
@@ -228,25 +220,23 @@ const Portfolio = () => {
                   Download CV
                 </button>
                 </a>
-                <a href="mailto:chirag.sharma1701@gmail.com">
                 <button 
                   onClick={() => setActiveSection('contact')}
                   className={`px-6 py-3 rounded-xl font-medium transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}
                 >
                   Contact
                 </button>
-                </a>
               </div>
 
               {/* Quick Links */}
               <div className="flex gap-3">
-                <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
+                <a href="https://github.com/Chiraagrah" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
+                <a href="https://www.linkedin.com/in/chirag-sharma-9b72b4268/" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
+                <a href="https://www.hackerrank.com/profile/chirag_sharma171" className={`p-3 rounded-lg transition-colors ${darkMode ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'}`}>
                   <Code2 className="w-5 h-5" />
                 </a>
               </div>
